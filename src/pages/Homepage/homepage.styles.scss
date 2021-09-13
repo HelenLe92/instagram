@@ -1,0 +1,19 @@
+.wrap-content{
+	margin-top: 100px;
+}
+.container{
+	margin: auto;
+	max-width: 935px;
+	.box-page{
+		display: flex;
+	}
+	.home-content{
+		max-width: 600px;
+		margin-right: 28px;
+	}
+	.sidebar{
+		
+		max-width: 335px;
+		width: 100%;
+	}
+}

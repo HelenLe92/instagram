@@ -1,0 +1,22 @@
+.sign-in.sign-up{
+	max-width: 350px;
+	grid-template-columns: 100%;
+}
+.descriton-title{
+	color: #8e8e8e;
+	font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0 -20px 10px;
+    text-align: center;
+}
+.block-description{
+	margin: 0 40px;
+}
+.terms-policy{
+	color: #8e8e8e;
+	font-size: 12px;
+	a{
+		font-weight: 600;
+	}
+}

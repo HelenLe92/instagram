@@ -1,0 +1,15 @@
+.menu-item{
+	display: flex;
+	justify-content: end;
+	list-style: none;
+	.item{
+		padding: 0 10px;
+		
+		img{
+			width: 22px;
+			height: 22px;
+			border-radius: 100%;
+			
+		}
+	}
+}

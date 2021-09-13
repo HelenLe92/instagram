@@ -1,0 +1,32 @@
+.user-story{
+	border-radius: 3px;
+    border: 1px solid #dbdbdb;
+    background: white;
+    margin-bottom: 40px;
+	padding: 10px;
+	.backg-ing{
+		background-image:url(../../assets/circle-png.png);
+		background-size: 62px 62px;
+		background-position: left;
+		background-repeat: no-repeat;
+		width: 62px;
+		height: 62px;
+		padding-left: 3px;
+		padding-top: 6px;
+		
+	}
+		img{
+			width: 56px;
+			height: 56px;
+			border-radius: 50%;
+		}
+		p{
+			display: block;
+			width: 56px;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			font-size: 12px;
+			margin: 0;
+			text-align: center;
+		}
+}

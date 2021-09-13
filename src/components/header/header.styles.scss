@@ -1,0 +1,19 @@
+header{
+	position: fixed;
+    top: 0;
+	width: 100%;
+	background: #ffffff;
+	border-bottom: 1px solid #dbdbdb;
+	height: 54px;
+	-webkit-transition: height .2s ease-in-out;
+    transition: height .2s ease-in-out;
+    width: 100%;
+    z-index: 3;
+	.logo{
+		padding: 15px 0;
+	}
+}
+.main-header{
+	display: grid;
+	grid-template-columns: 33.33% 33.33% 33.33%;
+}

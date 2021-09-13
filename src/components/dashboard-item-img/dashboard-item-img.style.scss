@@ -1,0 +1,10 @@
+.block-item-img{
+	background-size: contain;
+	background-repeat: no-repeat;
+	img{
+		object-fit: cover;
+		width: 100%;
+		max-height: 400px;
+	}
+
+}

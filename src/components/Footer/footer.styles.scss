@@ -1,0 +1,17 @@
+.footer{
+	text-align: center;
+	font-size: 12px;
+	color: #8e8e8e;
+	ul{
+		display: block;
+		list-style: none;
+		width: 100%;
+		max-width: 650px;
+		margin: auto;
+		li{
+			display: inline-block;
+			padding: 3px 8px;
+		}
+	}
+    
+}

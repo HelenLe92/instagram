@@ -1,0 +1,33 @@
+.suggestion-item{
+	display: grid;
+	grid-template-columns: 20% 60% 20%;
+	margin-bottom: 10px;
+	img{
+		width: 42px;
+		height: 42px;
+		border-radius: 100%;
+	}
+	.suggestion-item-infor{
+		margin-left: 12px;
+		h4{
+			font-size: 14px;
+			font-weight: bold;
+			margin: 0;
+			padding-bottom: 5px;
+		}
+		p{
+			color: #8e8e8e;
+			font-size: 12px;
+			line-height: 14px;
+				margin: -2px 0 -3px;
+		}
+	}
+	button{
+		font-size: 12px;
+		background: transparent;
+		font-weight: 600;
+		border: 0;
+		color: #0095f6;
+		line-height: 39px;
+	}
+}
