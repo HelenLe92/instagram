@@ -9,7 +9,7 @@ import SignInSlider from '../signin-slider/signin-slider.component';
 import { Link } from 'react-router-dom';
 
 
-import { auth, signInWithGoogle } from '../../firebase/firebase.utils';
+import { auth } from '../../firebase/firebase.utils';
 
 import './sign-in.component.scss';
 
@@ -34,8 +34,6 @@ class SignIn extends React.Component {
       await auth.signInWithEmailAndPassword( email, password);
       this.setState({ email: '', password: '' });
 	  window.location.assign("/home");
-
-	  console.log(email);
     } catch (error) {
       console.log(error);
     }
@@ -43,7 +41,6 @@ class SignIn extends React.Component {
 
   handleChange = event => {
     const { value, name } = event.target;
-
     this.setState({ [name]: value });
   };
 
@@ -78,7 +75,7 @@ class SignIn extends React.Component {
 			          <div className='buttons'>
 			            <CustomButton type='submit'> Log in </CustomButton>
 						<p className='or-style'> <span>Or</span></p>
-			            <button className='sign-in-fb' onClick={signInWithGoogle}>
+			            <button className='sign-in-fb'>
 			              Log in with Facebook
 			            </button>
 						

@@ -36,8 +36,8 @@
 		padding: 10px;
 		.location-end{
 			@include flexbox();
-			justify-content: end;
-			justify-items: end;
+			justify-content: flex-end;
+			justify-items: flex-end;
 			width: 100%;
 			margin-right: 20px;
 		}
