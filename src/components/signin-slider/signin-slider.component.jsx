@@ -35,7 +35,8 @@ const SignInSlider = (props) =>{
 		infinite: true,
 		arrows: false,
 		autoplay: true,
-		speed: 1000,
+		fade: true,
+		speed: 1500,
 		slidesToShow: 1,
 		slidesToScroll: 1
 	  };

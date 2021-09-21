@@ -8,15 +8,17 @@ const SignInPage = ({currentUser}) => (
 	<Fragment>
 	{currentUser ? (
 		<Fragment>
-			<div className='sign-in-and-sign-up'>
-			  <SignIn />
-			</div>
-			<Footer/>
-		</Fragment>
+		<Homepage />
+	</Fragment>
+		
 	) : (
-		<Fragment>
-			<Homepage />
-		</Fragment>
+		
+	<Fragment>
+	<div className='sign-in-and-sign-up'>
+	  <SignIn />
+	</div>
+	<Footer/>
+</Fragment>
 	)}
 	  
 	</Fragment>
